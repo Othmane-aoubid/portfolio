@@ -86,6 +86,18 @@
     <div class="bg-white">
       <ProfessionalJourney />
     </div>
+    <!-- Client Feed Back Section -->
+    <div class="bg-white">
+      <ClientFeedBack />
+    </div>
+    <!-- Insights Section -->
+    <div class="bg-white">
+      <Insights />
+    </div>
+    <!-- footer Section -->
+    <div class="bg-white">
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -94,6 +106,9 @@ import AboutMe from "./components/about/AboutMe.vue";
 import ProfessionalJourney from "./components/ProfessionalJourney/ProfessionalJourney.vue";
 import Skills from "./components/skills/Skills.vue";
 import Showcase from "./components/showcase/ShowcaseSection.vue";
+import ClientFeedBack from "./components/clientfeedback/FeedBack.vue";
+import Insights from "./components/insights/Insights.vue";
+import Footer from "./components/footer/Footer.vue";
 const navItems = ["About Me", "Projects", "Experience", "Blog", "Contact Me"];
 </script>
 

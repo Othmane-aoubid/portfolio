@@ -7,9 +7,10 @@
           <h1 class="text-2xl font-bold">
             <div class="h-14 rounded-2xl overflow-hidden">
               <img
-                src="./assets/images/logo.webp?height=600&width=800"
+                src="./assets/images/logo.webp"
                 alt="Professional developer at work"
                 class="w-full h-full object-cover"
+                style="height:600;width:800"
               />
             </div>
           </h1>

@@ -51,9 +51,10 @@
         <!-- Right Image -->
         <div class="relative h-full rounded-2xl overflow-hidden">
           <img
-            src="../../assets/images/second.webp?height=600&width=800"
+            src="../../assets/images/second.webp"
             alt="Professional developer at work"
             class="w-full h-full object-cover"
+            style="height:600;width:800"
           />
         </div>
       </div>

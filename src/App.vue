@@ -82,11 +82,16 @@
     <div class="bg-white">
       <Showcase />
     </div>
+    <!-- Professional Journey Section -->
+    <div class="bg-white">
+      <ProfessionalJourney />
+    </div>
   </div>
 </template>
 
 <script setup>
 import AboutMe from "./components/about/AboutMe.vue";
+import ProfessionalJourney from "./components/ProfessionalJourney/ProfessionalJourney.vue";
 import Skills from "./components/skills/Skills.vue";
 import Showcase from "./components/showcase/ShowcaseSection.vue";
 const navItems = ["About Me", "Projects", "Experience", "Blog", "Contact Me"];

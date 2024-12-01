@@ -26,11 +26,13 @@
           <div
             class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6"
           >
-            <button
-              class="bg-white text-black px-8 py-3 rounded-md hover:bg-gray-200 transition-colors"
-            >
-              <router-link to="/projects"> View Projects </router-link>
-            </button>
+            <router-link to="/projects">
+              <button
+                class="bg-white text-black px-8 py-3 rounded-md hover:bg-gray-200 transition-colors"
+              >
+                View Projects
+              </button>
+            </router-link>
             <button
               class="border border-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors"
             >

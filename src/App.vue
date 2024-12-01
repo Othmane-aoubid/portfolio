@@ -11,7 +11,7 @@
                   src="./assets/images/logo.webp"
                   alt="Professional developer at work"
                   class="w-full h-full object-cover"
-                  style="height:600;width:800"
+                  style="height: 600; width: 800"
                 />
               </router-link>
             </div>
@@ -29,7 +29,7 @@
           <button
             class="hidden md:block bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200 transition-colors"
           >
-            View Projects
+            <router-link to="/projects">View Projects</router-link>
           </button>
           <!-- Hamburger menu button -->
           <button
@@ -108,7 +108,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 import Footer from "./components/footer/Footer.vue";
 
 const navItems = [

@@ -15,9 +15,25 @@
       <!-- Content -->
       <div class="relative z-10 container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-8">
-            Welcome to My Portfolio
+          <h1
+            class="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 relative inline-block"
+          >
+            <span class="relative z-10">Welcome to My Portfolio</span>
+            <svg
+              class="absolute bottom-0 left-0 w-full h-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 500 10"
+              fill="none"
+            >
+              <path
+                d="M0 5 H500"
+                stroke="white"
+                stroke-width="2"
+                class="animate-twbb-dash"
+              />
+            </svg>
           </h1>
+
           <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12">
             I am a passionate Full Stack Developer with over two years of
             experience in creating and optimizing modern web applications. Let's

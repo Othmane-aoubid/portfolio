@@ -5,10 +5,16 @@
       <div class="space-y-8">
         <!-- Bio Section -->
         <div class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+            Meet Othmane
+          </h2>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            <span class="font-medium">Othmane</span> is a <span class="text-blue-600 font-medium">Full Stack Developer</span> with over two years of experience 
-            in creating dynamic web applications. His expertise spans both front-end and back-end technologies, ensuring a seamless user experience 
-            and robust functionality.
+            <span class="font-medium">Othmane</span> is a
+            <span class="text-blue-600 font-medium">Full Stack Developer</span>
+            with over two years of experience in creating dynamic web
+            applications. His expertise spans both front-end and back-end
+            technologies, ensuring a seamless user experience and robust
+            functionality.
           </p>
         </div>
 
@@ -16,33 +22,45 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <!-- Projects -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">100 projects</h3>
+            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+              100 projects
+            </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Successfully completed numerous projects that showcase his ability to deliver practical solutions.
+              Successfully completed numerous projects that showcase his ability
+              to deliver practical solutions.
             </p>
           </div>
 
           <!-- Technologies -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">50 technologies</h3>
+            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+              50 technologies
+            </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Proficient in a variety of technologies, including JavaScript frameworks, which he uses to build scalable applications.
+              Proficient in a variety of technologies, including JavaScript
+              frameworks, which he uses to build scalable applications.
             </p>
           </div>
 
           <!-- Years -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">10 years</h3>
+            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+              10 years
+            </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Othmane is committed to continuous learning and improvement, always seeking to enhance his skills.
+              Othmane is committed to continuous learning and improvement,
+              always seeking to enhance his skills.
             </p>
           </div>
 
           <!-- Clients -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">20 clients</h3>
+            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+              20 clients
+            </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              He has collaborated with various clients, ensuring their needs are met with integrity and transparency.
+              He has collaborated with various clients, ensuring their needs are
+              met with integrity and transparency.
             </p>
           </div>
         </div>
@@ -54,7 +72,7 @@
           src="../../assets/images/second.webp"
           alt="Professional developer at work"
           class="w-full h-auto object-cover"
-          style="max-height: 600px;"
+          style="max-height: 600px"
         />
       </div>
     </div>
@@ -63,19 +81,18 @@
 
 <script>
 export default {
-  name: 'AboutMe',
+  name: "AboutMe",
   data() {
     return {
       // component data here
-    }
+    };
   },
   methods: {
     // component methods here
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
 /* component styles here */
 </style>
-

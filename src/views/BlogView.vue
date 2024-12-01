@@ -1,56 +1,116 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="space-y-8">
-      <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-gray-900">Technical Skills</h2>
+  <div class="max-w-7xl mx-auto p-6 py-20">
+    <!-- Header Section -->
+    <h1 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4 text-center">Othmane's Insights</h1>
+    <p class="text-lg text-center text-gray-600 mb-8">
+      Dive into the world of web development with articles that share practical
+      tips, personal experiences, and the latest trends in technology.
+    </p>
 
-      <!-- Description -->
-      <p class="text-lg text-gray-700 leading-relaxed">
-        Othmane is proficient in a variety of <span class="text-blue-600">programming languages and frameworks</span>, including JavaScript, React, Node.js, and Python. His skills enable him to build robust and scalable web applications.
-      </p>
-
-      <!-- Skills Grid -->
-      <div class="grid md:grid-cols-2 gap-8 mt-8">
-        <!-- Front-End -->
-        <div class="space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">Front-End</h3>
-          <p class="text-gray-700">
-            Expertise in creating responsive and user-friendly interfaces using 
-            <span class="text-blue-600">HTML, CSS</span>, and 
-            <span class="text-blue-600">JavaScript</span> frameworks like 
-            <span class="text-blue-600">React</span> and 
-            <span class="text-blue-600">Vue.js</span>.
-          </p>
-        </div>
-
-        <!-- Back-End -->
-        <div class="space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">Back-End</h3>
-          <p class="text-gray-700">
-            Skilled in server-side development with 
-            <span class="text-blue-600">Node.js, Express</span>, and 
-            <span class="text-blue-600">Python</span>, ensuring efficient data handling and application performance.
-          </p>
+    <!-- Recent Articles Section -->
+    <section class="mb-12">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-1xl md:text-2xl font-bold text-gray-800 mb-4">Recent Articles</h2>
+        <a href="#" class="text-blue-600 hover:underline text-sm font-medium"
+          >View All</a
+        >
+      </div>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div
+          v-for="article in recentArticles"
+          :key="article.title"
+          class="bg-white shadow-md rounded-lg overflow-hidden"
+        >
+          <img
+            :src="article.image"
+            :alt="article.title"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-1xl md:text-2xl font-bold text-gray-800 mb-4">{{ article.title }}</h3>
+            <p class="text-sm text-gray-600">{{ article.category }}</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Additional Resources Section -->
+    <section>
+      <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4 text-center">Additional Resources</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div
+          v-for="resource in additionalResources"
+          :key="resource.title"
+          class="bg-white shadow-md rounded-lg overflow-hidden"
+        >
+          <img
+            :src="resource.image"
+            :alt="resource.title"
+            class="w-full h-40 object-cover"
+          />
+          <div class="p-4">
+            <h3 class="text-1xl md:text-2xl font-bold text-gray-800 mb-4">{{ resource.title }}</h3>
+            <p class="text-sm text-gray-600">{{ resource.category }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-name: 'ComponentName',
-data() {
-  return {
-    // component data here
-  }
-},
-methods: {
-  // component methods here
-}
-}
+  data() {
+    return {
+      recentArticles: [
+        {
+          title: "The Journey of a Full Stack Developer",
+          category: "Front-End Development",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Top JavaScript Frameworks for 2023",
+          category: "Web Development",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Best Practices for Optimizing Web Applications",
+          category: "Web Performance",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "The Importance of Collaboration in Development",
+          category: "Teamwork",
+          image: "https://via.placeholder.com/300x200",
+        },
+      ],
+      additionalResources: [
+        {
+          title: "The Journey of a Full Stack Developer",
+          category: "Front-End Development",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Top JavaScript Frameworks for 2023",
+          category: "Web Development",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Best Practices for Optimizing Web Applications",
+          category: "Web Performance",
+          image: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "The Importance of Collaboration in Development",
+          category: "Teamwork",
+          image: "https://via.placeholder.com/300x200",
+        },
+      ],
+    };
+  },
+};
 </script>
 
-<style scoped>
-/* component styles here */
+<style>
+/* Add additional custom styles if necessary */
 </style>

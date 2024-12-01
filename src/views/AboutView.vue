@@ -1,60 +1,59 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-white	">
-    <div class="grid lg:grid-cols-2 gap-12 items-center bg-white	">
-      <!-- Left Content -->
-      <div class="space-y-8">
-        <!-- Bio Section -->
-        <div class="space-y-4">
-          <p class="text-lg text-gray-700 leading-relaxed">
-            <span class="font-medium">Othmane</span> is a <span class="text-blue-600 font-medium">Full Stack Developer</span> with over two years of experience 
-            in creating dynamic web applications. His expertise spans both front-end and back-end technologies, ensuring a seamless user experience 
-            and robust functionality.
-          </p>
-        </div>
+  <section class="w-full bg-white py-20 md:px-20 lg:px-40" style="padding-inline: 4rem;">
+    <h1 class="text-center text-2xl md:text-4xl font-bold text-gray-800 mb-10">About Othmane</h1>
+    <p class="text-center text-gray-600 text-sm md:text-base mb-14">
+      With over two years of experience, Othmane excels in both front-end and back-end development,
+      delivering innovative web solutions that enhance user experience.
+    </p>
 
-        <!-- Stats Grid -->
-        <div class="grid grid-cols-2 gap-8">
-          <!-- Projects -->
-          <div class="space-y-2">
-            <h3 class="text-4xl font-bold text-gray-900">100 projects</h3>
-            <p class="text-gray-600">
-              Successfully completed numerous projects that showcase his ability to deliver practical solutions.
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center" >
+      <!-- Left Section -->
+      <div>
+        <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+          Othmane's Professional Journey
+        </h2>
+        <p class="text-gray-600 text-sm md:text-base mb-6">
+          With over two years of experience, Othmane has honed his skills in both front-end and back-end development. 
+          His expertise in JavaScript frameworks allows him to build efficient and scalable web applications that meet client needs.
+        </p>
+
+        <div class="grid grid-cols-2 gap-6">
+          <!-- Achievements -->
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">50 projects</h3>
+            <p class="text-gray-600 text-sm md:text-base">
+              Successfully completed projects that showcase his ability to deliver practical solutions.
             </p>
           </div>
-
-          <!-- Technologies -->
-          <div class="space-y-2">
-            <h3 class="text-4xl font-bold text-gray-900">50 technologies</h3>
-            <p class="text-gray-600">
-              Proficient in a variety of technologies, including JavaScript frameworks, which he uses to build scalable applications.
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">100 clients</h3>
+            <p class="text-gray-600 text-sm md:text-base">
+              Othmane has collaborated with numerous clients, ensuring their visions are brought to life through innovative web solutions.
             </p>
           </div>
-
-          <!-- Years -->
-          <div class="space-y-2">
-            <h3 class="text-4xl font-bold text-gray-900">10 years</h3>
-            <p class="text-gray-600">
-              Othmane is committed to continuous learning and improvement, always seeking to enhance his skills.
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">5 years</h3>
+            <p class="text-gray-600 text-sm md:text-base">
+              He is committed to continuous learning and improvement, always striving to enhance his skills and knowledge in the ever-evolving tech landscape.
             </p>
           </div>
-
-          <!-- Clients -->
-          <div class="space-y-2">
-            <h3 class="text-4xl font-bold text-gray-900">20 clients</h3>
-            <p class="text-gray-600">
-              He has collaborated with various clients, ensuring their needs are met with integrity and transparency.
+          <div>
+            <h3 class="text-lg font-bold text-gray-800">10 teams</h3>
+            <p class="text-gray-600 text-sm md:text-base">
+              Othmane values collaboration and teamwork, working effectively with cross-functional teams to achieve project goals.
             </p>
           </div>
         </div>
       </div>
 
-      <!-- Right Image -->
-      <div class="relative h-full rounded-2xl overflow-hidden">
+      <!-- Right Section -->
+      <div>
         <img
-          src="../assets/images/second.webp"
-          alt="Professional developer at work"
-          class="w-full h-full object-cover"
-          style="height:600;width:800"
+          src="../assets/images/media5.webp" 
+          alt="Othmane's Professional Image" 
+          class="rounded-lg shadow-lg"
+          width="600px"
+          height="600px"
         />
       </div>
     </div>
@@ -63,18 +62,10 @@
 
 <script>
 export default {
-name: 'ComponentName',
-data() {
-  return {
-    // component data here
-  }
-},
-methods: {
-  // component methods here
-}
-}
+  name: "AboutMe",
+};
 </script>
 
 <style scoped>
-/* component styles here */
+/* You can add custom styles here if needed */
 </style>

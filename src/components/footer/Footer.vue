@@ -13,6 +13,7 @@
         <router-link to="/projects" class="text-gray-600 hover:text-blue-500 py-2">Projects</router-link>
         <router-link to="/experience" class="text-gray-600 hover:text-blue-500 py-2">Experience</router-link>
         <router-link to="/blog" class="text-gray-600 hover:text-blue-500 py-2">Blog</router-link>
+        <router-link to="/contact" class="text-gray-600 hover:text-blue-500 py-2">Contact Me</router-link>
       </nav>
     </div>
     <hr class="my-6 sm:my-8" />

@@ -23,7 +23,7 @@
           <!-- Projects -->
           <div class="space-y-2">
             <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
-              100 projects
+              +5 projects
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
               Successfully completed numerous projects that showcase his ability
@@ -34,7 +34,7 @@
           <!-- Technologies -->
           <div class="space-y-2">
             <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
-              50 technologies
+              +10 technologies
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
               Proficient in a variety of technologies, including JavaScript
@@ -45,7 +45,7 @@
           <!-- Years -->
           <div class="space-y-2">
             <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
-              10 years
+              +3 years
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
               Othmane is committed to continuous learning and improvement,
@@ -56,7 +56,7 @@
           <!-- Clients -->
           <div class="space-y-2">
             <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
-              20 clients
+              4 clients
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
               He has collaborated with various clients, ensuring their needs are
@@ -69,7 +69,7 @@
       <!-- Right Image -->
       <div class="relative h-full rounded-2xl overflow-hidden mt-8 lg:mt-0">
         <img
-          src="../../assets/images/second.webp"
+          src="../../assets/images/othmaneaoubid.jpg"
           alt="Professional developer at work"
           class="w-full h-auto object-cover"
           style="max-height: 600px"

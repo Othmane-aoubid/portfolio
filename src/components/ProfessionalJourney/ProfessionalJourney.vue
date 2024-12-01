@@ -3,68 +3,47 @@
     <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
       <!-- Left Content -->
       <div class="space-y-6 sm:space-y-8">
-        <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-left">
+        <h1
+          class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-left"
+        >
           Professional Journey
         </h1>
         <!-- Bio Section -->
         <div class="space-y-4">
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            <span class="font-medium">Othmane</span> is a
-            <span class="text-blue-600 font-medium">Full Stack Developer</span>
-            with over two years of experience in creating dynamic web
-            applications. His expertise spans both front-end and back-end
-            technologies, ensuring a seamless user experience and robust
-            functionality.
+            <span class="font-medium">The journey </span> of a
+            <span class="text-blue-600 font-medium">software engineer</span>
+            is a path of continuous growth, creativity, and innovation. It
+            begins with curiosity and evolves through mastering coding,
+            debugging, and building complex systems. Along the way, the engineer
+            achieves milestones like successful product launches, team
+            collaborations, and contributions to transformative technologies.
+            Each step involves adapting to new tools, solving real-world
+            problems, and embracing lifelong learning. Beyond technical
+            achievements, the journey is about creating meaningful
+            change crafting solutions that impact lives, drive progress, and
+            shape the future through the power of technology. At its core, this
+            journey is fueled by passion and resilience. Each challenge, from
+            debugging elusive errors to adapting to industry shifts, hones the
+            engineer's skills and mindset. The professional timeline weaves
+            together moments of collaboration, innovation, and inspiration,
+            building a career that thrives on curiosity and purpose. Ultimately,
+            the software engineer’s journey is not just about writing code—it’s
+            about creating impact, connecting ideas, and leaving a lasting
+            legacy in a digitally driven world.
           </p>
         </div>
 
         <!-- Stats Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
-          <!-- Projects -->
-          <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">100 projects</h3>
-            <p class="text-sm sm:text-base text-gray-600">
-              Successfully completed numerous projects that showcase his ability
-              to deliver practical solutions.
-            </p>
-          </div>
-
-          <!-- Technologies -->
-          <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">50 technologies</h3>
-            <p class="text-sm sm:text-base text-gray-600">
-              Proficient in a variety of technologies, including JavaScript
-              frameworks, which he uses to build scalable applications.
-            </p>
-          </div>
-
-          <!-- Years -->
-          <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">10 years</h3>
-            <p class="text-sm sm:text-base text-gray-600">
-              Othmane is committed to continuous learning and improvement,
-              always seeking to enhance his skills.
-            </p>
-          </div>
-
-          <!-- Clients -->
-          <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">20 clients</h3>
-            <p class="text-sm sm:text-base text-gray-600">
-              He has collaborated with various clients, ensuring their needs are
-              met with integrity and transparency.
-            </p>
-          </div>
-        </div>
       </div>
 
       <!-- Right Image -->
       <div class="relative h-full rounded-2xl overflow-hidden mt-8 lg:mt-0">
         <img
-          src="../../assets/images/second.webp"
+          src="../../assets/images/personaljourney.webp"
           alt="Professional developer at work"
           class="w-full h-auto object-cover"
-          style="max-height: 600px;"
+          style="max-height: 600px"
         />
       </div>
     </div>

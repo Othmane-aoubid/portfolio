@@ -29,7 +29,7 @@
             <button
               class="bg-white text-black px-8 py-3 rounded-md hover:bg-gray-200 transition-colors"
             >
-              View Projects
+              <router-link to="/projects"> View Projects </router-link>
             </button>
             <button
               class="border border-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors"

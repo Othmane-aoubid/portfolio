@@ -116,7 +116,7 @@ const navItems = [
   { label: "About Me", path: "/about" },
   { label: "Projects", path: "/projects" },
   { label: "Experience", path: "/experience" },
-  { label: "Blog", path: "/blog" },
+  // { label: "Blog", path: "/blog" },
   { label: "Contact Me", path: "/contact" },
 ];
 const isMenuOpen = ref(false);

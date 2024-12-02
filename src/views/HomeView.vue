@@ -84,9 +84,9 @@
       <ClientFeedBack />
     </div> -->
     <!-- Insights Section -->
-    <div class="bg-white">
+    <!-- <div class="bg-white">
       <Insights />
-    </div>
+    </div> -->
   </div>
 </template>
 

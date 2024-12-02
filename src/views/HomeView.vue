@@ -34,10 +34,14 @@
             </svg>
           </h1>
 
-          <p class="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12">
-            I am a passionate Full Stack Developer with over two years of
-            experience in creating and optimizing modern web applications. Let's
-            explore my skills and projects that showcase my expertise.
+          <p class="text-lg sm:text-xl md:text-2xl text-gray-100 mb-12 text-justify font-bold">
+            Hi, I’m Othmane ! A passionate Software Engineer with over two
+            years of experience in building innovative web applications. I
+            specialize in creating scalable, user-friendly solutions tailored to
+            meet client needs. From collaborating with world-renowned
+            organizations to delivering cutting-edge platforms, I turn ideas
+            into reality with clean code and creative problem-solving. Let’s
+            build something amazing together!
           </p>
           <div
             class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6"

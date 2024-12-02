@@ -1,6 +1,6 @@
 <template>
   <section class="text-center py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
-    <h2 class="text-lg font-semibold text-gray-800">OUR PROJECTS</h2>
+    <h2 class="text-lg font-semibold text-gray-800">PROJECTS</h2>
     <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">Showcasing My Work</h1>
     <p class="mt-4 text-base sm:text-lg text-gray-800 max-w-2xl mx-auto">
       Explore a selection of my projects that demonstrate my skills in web

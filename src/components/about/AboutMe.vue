@@ -6,15 +6,18 @@
         <!-- Bio Section -->
         <div class="space-y-4">
           <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6">
-            Meet Othmane
+            About Me
           </h2>
           <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            <span class="font-medium">Othmane</span> is a
-            <span class="text-blue-600 font-medium">Full Stack Developer</span>
-            with over two years of experience in creating dynamic web
-            applications. His expertise spans both front-end and back-end
-            technologies, ensuring a seamless user experience and robust
-            functionality.
+            <span class="font-medium">I’m a Software Engineer </span>
+            <span class="text-blue-600 font-medium"
+              >with expertise in front-end and back-end development.</span
+            >
+            Over the last two years, I’ve had the privilege of working on
+            impactful projects in industries like sports, cybersecurity, and
+            energy optimization. My passion lies in solving complex problems,
+            collaborating with talented teams, and delivering software solutions
+            that make a difference.
           </p>
         </div>
 
@@ -22,45 +25,48 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
           <!-- Projects -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
               +5 projects
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Successfully completed numerous projects that showcase his ability
-              to deliver practical solutions.
+              Crafted and delivered impactful solutions through 5+ successful
+              projects, ranging from real-time data logging applications to
+              energy optimization platforms.
             </p>
           </div>
 
           <!-- Technologies -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
               +10 technologies
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Proficient in a variety of technologies, including JavaScript
-              frameworks, which he uses to build scalable applications.
+              Mastered over 10 cutting-edge technologies to build modern, robust
+              applications. From versatile JavaScript frameworks like React.js,
+              Vue.js, and Next.js to back-end powerhouses like Python Flask and
+              Node.js.
             </p>
           </div>
 
           <!-- Years -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
               +3 years
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              Othmane is committed to continuous learning and improvement,
-              always seeking to enhance his skills.
+              With 3+ years of experience, I’m continuously learning, growing,
+              and refining my skills to stay ahead of the curve.
             </p>
           </div>
 
           <!-- Clients -->
           <div class="space-y-2">
-            <h3 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
               4 clients
             </h3>
             <p class="text-sm sm:text-base text-gray-600">
-              He has collaborated with various clients, ensuring their needs are
-              met with integrity and transparency.
+              Collaborated with 4 esteemed clients, including organizations like
+              the Royal Moroccan Football Federation and the Irish Government.
             </p>
           </div>
         </div>

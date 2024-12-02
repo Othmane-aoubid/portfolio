@@ -87,13 +87,14 @@
           @click="toggleMenu"
         >
           {{ item.label }}
-        </router-link>
+        </router-link >
+        <router-link to="/projects">
         <button
           class="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200 transition-colors"
           @click="toggleMenu"
         >
           View Projects
-        </button>
+        </button></router-link>
       </div>
     </div>
     <!-- about me Section -->

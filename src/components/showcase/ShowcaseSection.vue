@@ -1,7 +1,9 @@
 <template>
   <section class="text-center py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
     <h2 class="text-lg font-semibold text-gray-800">PROJECTS</h2>
-    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">Showcasing My Work</h1>
+    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">
+      Showcasing My Work
+    </h1>
     <p class="mt-4 text-base sm:text-lg text-gray-800 max-w-2xl mx-auto">
       Explore a selection of my projects that demonstrate my skills in web
       development and design.
@@ -9,33 +11,34 @@
     <div class="mt-12 space-y-12">
       <div class="bg-white rounded-lg overflow-hidden shadow-lg">
         <img
-          src="../../assets/images/project1.webp"
+          src="../../assets/images/predictive.png"
           alt="E-commerce Platform"
           class="w-full h-64 object-cover"
         />
         <div class="p-6">
-          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-            E-commerce Platform
+          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left">
+            Predictive is a security and vulnerability scanning platform
           </h2>
           <div class="space-y-2 mb-6">
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
-              <span>Client: Online Retailer</span>
+              <span>Client: Tisalabs</span>
             </div>
-            <div class="flex items-center text-sm text-gray-600">
+            <!-- <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
               <span>Date: May 2023</span>
-            </div>
+            </div> -->
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
               <span>Features: User-friendly interface</span>
             </div>
           </div>
-          <p class="text-gray-700 leading-relaxed mb-6">
-            This e-commerce platform allows users to browse products, add
-            them to a cart, and complete purchases securely. It features a
-            robust back-end management system and a clean, user-friendly
-            interface that enhances the shopping experience.
+          <p class="text-gray-700 leading-relaxed mb-6 text-left">
+            Predictive is a security and vulnerability scanning platform that
+            identifies and predicts security threats before they happen.
+            Predictive was designed by a team of security experts who are
+            passionate about developing better ways to protect organizations
+            from Cyberattacks.
           </p>
           <div class="mt-auto text-left">
             <a
@@ -69,7 +72,7 @@
           class="w-full h-64 object-cover"
         />
         <div class="p-6">
-          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left">
             Personal Blog
           </h2>
           <div class="space-y-2 mb-6">
@@ -77,20 +80,21 @@
               <span class="text-gray-400 mr-2">#</span>
               <span>Client: Self-initiated</span>
             </div>
-            <div class="flex items-center text-sm text-gray-600">
+            <!-- <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
               <span>Date: June 2023</span>
-            </div>
+            </div> -->
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
               <span>Features: Responsive design, SEO optimization</span>
             </div>
           </div>
-          <p class="text-gray-700 leading-relaxed mb-6">
-            A personal blog platform built with modern web technologies. It features
-            a responsive design, optimized for various devices, and includes SEO best
-            practices for improved visibility. The platform allows easy content
-            management and provides an engaging reading experience for visitors.
+          <p class="text-gray-700 leading-relaxed mb-6 text-left">
+            A personal blog platform built with modern web technologies. It
+            features a responsive design, optimized for various devices, and
+            includes SEO best practices for improved visibility. The platform
+            allows easy content management and provides an engaging reading
+            experience for visitors.
           </p>
           <div class="mt-auto text-left">
             <a

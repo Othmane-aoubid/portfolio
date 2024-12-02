@@ -53,11 +53,12 @@
                 View Projects
               </button>
             </router-link>
+            <router-link to="/contact">
             <button
-              class="border border-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors"
+            class="bg-white text-black px-9 py-3 rounded-md hover:bg-gray-200 transition-colors"
             >
-              <router-link to="/contact"> Contact Me </router-link>
-            </button>
+               Contact Me 
+            </button></router-link>
           </div>
         </div>
       </div>

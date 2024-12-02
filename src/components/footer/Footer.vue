@@ -19,11 +19,11 @@
     <hr class="my-6 sm:my-8" />
     <div class="text-gray-500 text-sm px-4">
       <p class="mb-2">© 2024 Othmane. All rights reserved.</p>
-      <div class="space-x-2">
+      <!-- <div class="space-x-2">
         <router-link to="/privacy" class="text-gray-500 hover:text-blue-500">Privacy Policy</router-link>
         <span class="text-gray-400">|</span>
         <router-link to="/terms" class="text-gray-500 hover:text-blue-500">Terms Of Service</router-link>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>

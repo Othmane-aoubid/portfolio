@@ -16,7 +16,9 @@
           class="w-full h-64 object-cover"
         />
         <div class="p-6">
-          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left">
+          <h2
+            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
+          >
             Predictive is a security and vulnerability scanning platform
           </h2>
           <div class="space-y-2 mb-6">
@@ -30,7 +32,7 @@
             </div> -->
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
-              <span>Features: User-friendly interface</span>
+              <span>Technology Stack: Vue.js, Firebase, Python Flask</span>
             </div>
           </div>
           <p class="text-gray-700 leading-relaxed mb-6 text-left">
@@ -40,7 +42,7 @@
             passionate about developing better ways to protect organizations
             from Cyberattacks.
           </p>
-          <div class="mt-auto text-left">
+          <!-- <div class="mt-auto text-left">
             <a
               href="#"
               class="inline-flex items-center text-blue-600 hover:text-blue-800"
@@ -61,24 +63,26 @@
                 />
               </svg>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class="bg-white rounded-lg overflow-hidden shadow-lg">
         <img
-          src="../../assets/images/project2.webp"
+          src="../../assets/images/TridentApp2.png"
           alt="Personal Blog"
-          class="w-full h-64 object-cover"
+          class="w-full h-auto object-cover"
         />
         <div class="p-6">
-          <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left">
-            Personal Blog
+          <h2
+            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
+          >
+            Trident – Energy Usage Optimization Platform
           </h2>
           <div class="space-y-2 mb-6">
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
-              <span>Client: Self-initiated</span>
+              <span>Client: Tisalabs</span>
             </div>
             <!-- <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
@@ -86,17 +90,19 @@
             </div> -->
             <div class="flex items-center text-sm text-gray-600">
               <span class="text-gray-400 mr-2">#</span>
-              <span>Features: Responsive design, SEO optimization</span>
+              <span>Technology Stack: Vue.js, Firebase, Python Flask</span>
             </div>
           </div>
           <p class="text-gray-700 leading-relaxed mb-6 text-left">
-            A personal blog platform built with modern web technologies. It
-            features a responsive design, optimized for various devices, and
-            includes SEO best practices for improved visibility. The platform
-            allows easy content management and provides an engaging reading
-            experience for visitors.
+            Collaboration: Tisalabs and the Irish Government Trident is an
+            energy optimization platform developed in collaboration with
+            Tisalabs and the Irish Government. It helps citizens sell unused
+            electricity back to providers, who can redistribute it to others in
+            need. My role involved developing the front-end with Vue.js,
+            creating back-end APIs with Python Flask, and managing data with
+            Firebase to ensure seamless functionality.
           </p>
-          <div class="mt-auto text-left">
+          <!-- <div class="mt-auto text-left">
             <a
               href="#"
               class="inline-flex items-center text-blue-600 hover:text-blue-800"
@@ -117,7 +123,64 @@
                 />
               </svg>
             </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img
+          src="../../assets/images/Offzoneagency.png"
+          alt="Personal Blog"
+          class="w-full h-auto object-cover"
+        />
+        <div class="p-6">
+          <h2
+            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
+          >
+            OFZONE Agency Website
+          </h2>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Client: OFZONE Agency</span>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Date: June 2023</span>
+            </div> -->
+            <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Technology Stack: Next.js</span>
+            </div>
           </div>
+          <p class="text-gray-700 leading-relaxed mb-6 text-left">
+            Collaboration: Team of Software Engineers In partnership with a team
+            of developers, I created a sleek, modern website for OFZONE Agency.
+            Built with Next.js, the platform is optimized for fast loading
+            times, SEO, and a smooth user experience. This project highlights my
+            ability to work collaboratively and deliver exceptional results.
+          </p>
+          <!-- <div class="mt-auto text-left">
+            <a
+              href="#"
+              class="inline-flex items-center text-blue-600 hover:text-blue-800"
+            >
+              View Project
+              <svg
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5L16 12L9 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div> -->
         </div>
       </div>
     </div>

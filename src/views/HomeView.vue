@@ -79,9 +79,9 @@
       <ProfessionalJourney />
     </div>
     <!-- Client Feed Back Section -->
-    <div class="bg-white">
+    <!-- <div class="bg-white">
       <ClientFeedBack />
-    </div>
+    </div> -->
     <!-- Insights Section -->
     <div class="bg-white">
       <Insights />

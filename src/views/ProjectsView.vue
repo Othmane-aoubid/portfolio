@@ -13,39 +13,50 @@
       <!-- Single Project -->
       <div class="flex flex-col md:flex-row items-start md:items-center gap-6 border-b pb-10">
         <div class="flex-1">
-          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">E-commerce Platform</h2>
+          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Predictive is a security and vulnerability scanning platform</h2>
           <p class="text-gray-600 text-sm md:text-base mb-4">
-            A fully functional e-commerce site showcasing products, allowing users to browse, purchase, and manage orders seamlessly.
+            Predictive is a security and vulnerability scanning platform that
+            identifies and predicts security threats before they happen.
+            Predictive was designed by a team of security experts who are
+            passionate about developing better ways to protect organizations
+            from Cyberattacks.
           </p>
           <p class="text-gray-500 text-sm">
-            <span class="font-bold">Date:</span> October 2023 &nbsp;&nbsp; | &nbsp;&nbsp;
-            <span class="font-bold">Technologies:</span> HTML, CSS, JavaScript
+            <span class="font-bold">Company:</span> Tisalabs &nbsp;&nbsp; | &nbsp;&nbsp;
+            <span class="font-bold">Technologies:</span> Vue.js, Firebase, Python Flask
           </p>
           <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
-          src="https://via.placeholder.com/300x200"
-          alt="E-commerce Platform"
+          src="../assets/images/predictive.png"
+          alt="Epredictive"
           class="rounded-lg shadow-lg w-full md:w-1/3"
+          style="height: 150px ;"
         />
       </div>
 
       <!-- Second Project -->
       <div class="flex flex-col md:flex-row items-start md:items-center gap-6 border-b pb-10">
         <div class="flex-1">
-          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Personal Blog</h2>
+          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">rident – Energy Usage Optimization Platform</h2>
           <p class="text-gray-600 text-sm md:text-base mb-4">
-            A blogging platform for sharing ideas and thoughts. Features include user authentication, posting, and commenting.
+            Collaboration: Tisalabs and the Irish Government Trident is an
+            energy optimization platform developed in collaboration with
+            Tisalabs and the Irish Government. It helps citizens sell unused
+            electricity back to providers, who can redistribute it to others in
+            need. My role involved developing the front-end with Vue.js,
+            creating back-end APIs with Python Flask, and managing data with
+            Firebase to ensure seamless functionality.
           </p>
           <p class="text-gray-500 text-sm">
-            <span class="font-bold">Date:</span> January 2023 &nbsp;&nbsp; | &nbsp;&nbsp;
-            <span class="font-bold">Technologies:</span> HTML, CSS, Tailwind
+            <span class="font-bold">Company:</span> Tisalabs &nbsp;&nbsp; | &nbsp;&nbsp;
+            <span class="font-bold">Technologies:</span> Vue.js, Firebase, Python Flask, Tailwind
           </p>
           <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
-          src="https://via.placeholder.com/300x200"
-          alt="Personal Blog"
+          src="../assets/images/TridentApp2.png"
+          alt="TridentApp"
           class="rounded-lg shadow-lg w-full md:w-1/3"
         />
       </div>
@@ -53,19 +64,23 @@
       <!-- Third Project -->
       <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
         <div class="flex-1">
-          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Portfolio Website</h2>
+          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">OFZONE Agency Website</h2>
           <p class="text-gray-600 text-sm md:text-base mb-4">
-            A personal portfolio showcasing my projects, experiences, and skills in web development and design.
+            Collaboration: Team of Software Engineers In partnership with a team
+            of developers, I created a sleek, modern website for OFZONE Agency.
+            Built with Next.js, the platform is optimized for fast loading
+            times, SEO, and a smooth user experience. This project highlights my
+            ability to work collaboratively and deliver exceptional results.
           </p>
           <p class="text-gray-500 text-sm">
-            <span class="font-bold">Date:</span> November 2022 &nbsp;&nbsp; | &nbsp;&nbsp;
-            <span class="font-bold">Technologies:</span> HTML, CSS, JavaScript
+            <span class="font-bold">Company:</span> OFZONE Agency &nbsp;&nbsp; | &nbsp;&nbsp;
+            <span class="font-bold">Technologies:</span> Next.js, Tailwind
           </p>
           <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
-          src="https://via.placeholder.com/300x200"
-          alt="Portfolio Website"
+          src="../assets/images/Offzoneagency.png"
+          alt="OFZONE Agency Website"
           class="rounded-lg shadow-lg w-full md:w-1/3"
         />
       </div>

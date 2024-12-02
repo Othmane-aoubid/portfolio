@@ -25,7 +25,7 @@
             <span class="font-bold">Company:</span> Tisalabs &nbsp;&nbsp; | &nbsp;&nbsp;
             <span class="font-bold">Technologies:</span> Vue.js, Firebase, Python Flask
           </p>
-          <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
+          <a href="https://predictive.tisalabs.com/" target="_blank" rel="noopener noreferrer" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
           src="../assets/images/predictive.png"
@@ -38,7 +38,7 @@
       <!-- Second Project -->
       <div class="flex flex-col md:flex-row items-start md:items-center gap-6 border-b pb-10">
         <div class="flex-1">
-          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">rident – Energy Usage Optimization Platform</h2>
+          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">Trident – Energy Usage Optimization Platform</h2>
           <p class="text-gray-600 text-sm md:text-base mb-4">
             Collaboration: Tisalabs and the Irish Government Trident is an
             energy optimization platform developed in collaboration with
@@ -52,7 +52,7 @@
             <span class="font-bold">Company:</span> Tisalabs &nbsp;&nbsp; | &nbsp;&nbsp;
             <span class="font-bold">Technologies:</span> Vue.js, Firebase, Python Flask, Tailwind
           </p>
-          <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
+          <a href="https://trident.tisalabs.com/auth/login" target="_blank" rel="noopener noreferrer" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
           src="../assets/images/TridentApp2.png"
@@ -76,7 +76,7 @@
             <span class="font-bold">Company:</span> OFZONE Agency &nbsp;&nbsp; | &nbsp;&nbsp;
             <span class="font-bold">Technologies:</span> Next.js, Tailwind
           </p>
-          <a href="#" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
+          <a href="https://offzone.net/" target="_blank" rel="noopener noreferrer" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
         </div>
         <img
           src="../assets/images/Offzoneagency.png"

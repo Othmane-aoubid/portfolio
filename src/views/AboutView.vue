@@ -6,54 +6,85 @@
       delivering innovative web solutions that enhance user experience.
     </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center" >
-      <!-- Left Section -->
-      <div>
-        <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6">
-          Othmane's Professional Journey
-        </h2>
-        <p class="text-gray-600 text-sm md:text-base mb-6">
-          With over two years of experience, Othmane has honed his skills in both front-end and back-end development. 
-          His expertise in JavaScript frameworks allows him to build efficient and scalable web applications that meet client needs.
-        </p>
+    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+      <!-- Left Content -->
+      <div class="space-y-8">
+        <!-- Bio Section -->
+        <div class="space-y-4">
+          <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+            About Me
+          </h2>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
+            <span class="font-medium">I’m a Software Engineer </span>
+            <span class="text-blue-600 font-medium"
+              >with expertise in front-end and back-end development.</span
+            >
+            Over the last two years, I’ve had the privilege of working on
+            impactful projects in industries like sports, cybersecurity, and
+            energy optimization. My passion lies in solving complex problems,
+            collaborating with talented teams, and delivering software solutions
+            that make a difference.
+          </p>
+        </div>
 
-        <div class="grid grid-cols-2 gap-6">
-          <!-- Achievements -->
-          <div>
-            <h3 class="text-lg font-bold text-gray-800">50 projects</h3>
-            <p class="text-gray-600 text-sm md:text-base">
-              Successfully completed projects that showcase his ability to deliver practical solutions.
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
+          <!-- Projects -->
+          <div class="space-y-2">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
+              +5 projects
+            </h3>
+            <p class="text-sm sm:text-base text-gray-600">
+              Crafted and delivered impactful solutions through 5+ successful
+              projects, ranging from real-time data logging applications to
+              energy optimization platforms.
             </p>
           </div>
-          <div>
-            <h3 class="text-lg font-bold text-gray-800">100 clients</h3>
-            <p class="text-gray-600 text-sm md:text-base">
-              Othmane has collaborated with numerous clients, ensuring their visions are brought to life through innovative web solutions.
+
+          <!-- Technologies -->
+          <div class="space-y-2">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
+              +10 technologies
+            </h3>
+            <p class="text-sm sm:text-base text-gray-600">
+              Mastered over 10 cutting-edge technologies to build modern, robust
+              applications. From versatile JavaScript frameworks like React.js,
+              Vue.js, and Next.js to back-end powerhouses like Python Flask and
+              Node.js.
             </p>
           </div>
-          <div>
-            <h3 class="text-lg font-bold text-gray-800">5 years</h3>
-            <p class="text-gray-600 text-sm md:text-base">
-              He is committed to continuous learning and improvement, always striving to enhance his skills and knowledge in the ever-evolving tech landscape.
+
+          <!-- Years -->
+          <div class="space-y-2">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
+              +3 years
+            </h3>
+            <p class="text-sm sm:text-base text-gray-600">
+              With 3+ years of experience, I’m continuously learning, growing,
+              and refining my skills to stay ahead of the curve.
             </p>
           </div>
-          <div>
-            <h3 class="text-lg font-bold text-gray-800">10 teams</h3>
-            <p class="text-gray-600 text-sm md:text-base">
-              Othmane values collaboration and teamwork, working effectively with cross-functional teams to achieve project goals.
+
+          <!-- Clients -->
+          <div class="space-y-2">
+            <h3 class="text-1xl sm:text-2xl font-bold text-gray-900">
+              4 clients
+            </h3>
+            <p class="text-sm sm:text-base text-gray-600">
+              Collaborated with 4 esteemed clients, including organizations like
+              the Royal Moroccan Football Federation and the Irish Government.
             </p>
           </div>
         </div>
       </div>
 
-      <!-- Right Section -->
-      <div>
+      <!-- Right Image -->
+      <div class="relative h-full rounded-2xl overflow-hidden mt-8 lg:mt-0">
         <img
-          src="../assets/images/media5.webp" 
-          alt="Othmane's Professional Image" 
-          class="rounded-lg shadow-lg"
-          width="600px"
-          height="600px"
+          src="../assets/images/othmaneaoubid.jpg"
+          alt="Professional developer at work"
+          class="w-full h-auto object-cover"
+          style="max-height: 600px"
         />
       </div>
     </div>

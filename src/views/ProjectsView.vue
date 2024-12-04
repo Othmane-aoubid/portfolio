@@ -84,6 +84,34 @@
           class="rounded-lg shadow-lg w-full md:w-1/3"
         />
       </div>
+
+      <!-- fourth Project -->
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6">
+        <div class="flex-1">
+          <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-2">AutoWaysee Website Website</h2>
+          <p class="text-gray-600 text-sm md:text-base mb-4">
+            AutowaySee is an e-commerce platform tailored for car repair shops,
+            enabling users to explore, purchase, and book automotive services
+            and products online. Built with Vue.js, Firebase, and Tailwind CSS,
+            the platform provides a seamless shopping experience with real-time
+            updates and responsive design. Its sleek interface and robust
+            functionality demonstrate proficiency in modern web development
+            technologies, making it an ideal solution for businesses aiming to
+            digitize and streamline their operations in the automotive repair
+            industry.
+          </p>
+          <p class="text-gray-500 text-sm">
+            <span class="font-bold">Client:</span> AutoWaysee Website &nbsp;&nbsp; | &nbsp;&nbsp;
+            <span class="font-bold">Technologies:</span> Vuejs, Tailwind, Firebase
+          </p>
+          <a href="https://autowaysee.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-blue-500 text-sm underline mt-2 inline-block">Check Project →</a>
+        </div>
+        <img
+          src="../assets/images/autorepairshop.png"
+          alt="auto repair shop"
+          class="rounded-lg shadow-lg w-full md:w-1/3"
+        />
+      </div>
     </div>
   </section>
 </template>

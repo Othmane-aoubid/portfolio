@@ -126,6 +126,7 @@
           </div> -->
         </div>
       </div>
+
       <div class="bg-white rounded-lg overflow-hidden shadow-lg">
         <img
           src="../../assets/images/Offzoneagency.png"
@@ -158,6 +159,67 @@
             Built with Next.js, the platform is optimized for fast loading
             times, SEO, and a smooth user experience. This project highlights my
             ability to work collaboratively and deliver exceptional results.
+          </p>
+          <!-- <div class="mt-auto text-left">
+            <a
+              href="#"
+              class="inline-flex items-center text-blue-600 hover:text-blue-800"
+            >
+              View Project
+              <svg
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 5L16 12L9 19"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img
+          src="../../assets/images/autorepairshop.png"
+          alt="auto repair shop"
+          class="w-full h-auto object-cover"
+        />
+        <div class="p-6">
+          <h2
+            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
+          >
+            AutoWaysee Website
+          </h2>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Client: AutoWaysee</span>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Date: June 2023</span>
+            </div> -->
+            <div class="flex items-center text-sm text-gray-600">
+              <span class="text-gray-400 mr-2">#</span>
+              <span>Technology Stack: vuejs, tailwind, firebase</span>
+            </div>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-6 text-left">
+            AutowaySee is an e-commerce platform tailored for car repair shops,
+            enabling users to explore, purchase, and book automotive services
+            and products online. Built with Vue.js, Firebase, and Tailwind CSS,
+            the platform provides a seamless shopping experience with real-time
+            updates and responsive design. Its sleek interface and robust
+            functionality demonstrate proficiency in modern web development
+            technologies, making it an ideal solution for businesses aiming to
+            digitize and streamline their operations in the automotive repair
+            industry.
           </p>
           <!-- <div class="mt-auto text-left">
             <a

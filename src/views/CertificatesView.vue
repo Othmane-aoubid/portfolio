@@ -74,25 +74,25 @@ export default {
           title: 'Networking Essentials',
           issuer: 'Cisco Networking Academy',
           date: '2023',
-          image: '/src/assets/certificates/Networking_Essentials_certificate_o_aoubid-etu-enset-media-ac-ma_63d735e0-2607-4452-8c2b-002c29508430.pdf'
+          image: '/certificates/Networking_Essentials_certificate_o_aoubid-etu-enset-media-ac-ma_63d735e0-2607-4452-8c2b-002c29508430.pdf'
         },
         {
           title: 'English for IT 1',
           issuer: 'Cisco Networking Academy',
           date: '2023',
-          image: '/src/assets/certificates/English_for_IT_1_certificate_o_aoubid-etu-enset-media-ac-ma_36946776-5e5f-4131-a695-3f7b895b7656.pdf'
+          image: '/certificates/English_for_IT_1_certificate_o_aoubid-etu-enset-media-ac-ma_36946776-5e5f-4131-a695-3f7b895b7656.pdf'
         },
         {
           title: 'Introduction to IoT',
           issuer: 'Cisco Networking Academy',
           date: '2023',
-          image: '/src/assets/certificates/Introduction_to_IoT_certificate_o_aoubid-etu-enset-media-ac-ma_e272b145-044d-48d8-8aee-c27ba8e801a7.pdf'
+          image: '/certificates/Introduction_to_IoT_certificate_o_aoubid-etu-enset-media-ac-ma_e272b145-044d-48d8-8aee-c27ba8e801a7.pdf'
         },
         {
           title: 'Principles of Cybersecurity',
           issuer: 'Cisco Networking Academy',
           date: '2023',
-          image: '/src/assets/certificates/_certificate_o_aoubid-Principles-of- Cybersecurity.pdf'
+          image: '/certificates/_certificate_o_aoubid-Principles-of- Cybersecurity.pdf'
         }
       ],
       programmingCerts: [
@@ -100,13 +100,13 @@ export default {
           title: 'NDG Linux Unhatched',
           issuer: 'NDG Linux',
           date: '2023',
-          image: '/src/assets/certificates/Partner-_NDG_Linux_Unhatched_certificate_o_aoubid-etu-enset-media-ac-ma_b77d576a-16fa-4297-ab42-b77633b5036c.pdf'
+          image: '/certificates/Partner-_NDG_Linux_Unhatched_certificate_o_aoubid-etu-enset-media-ac-ma_b77d576a-16fa-4297-ab42-b77633b5036c.pdf'
         },
         {
           title: 'Linux Essentials',
           issuer: 'Linux Professional Institute',
           date: '2023',
-          image: '/src/assets/certificates/aoubidothmane-certificate-LINUX ESSENTIALS.pdf'
+          image: '/certificates/aoubidothmane-certificate-LINUX ESSENTIALS.pdf'
         }
       ],
       aiCerts: [
@@ -114,19 +114,19 @@ export default {
           title: 'Intro to ChatGPT and Generative AI',
           issuer: 'Coursera',
           date: '2023',
-          image: '/src/assets/certificates/othamen-Intro to ChatGPT and Generative AI.pdf'
+          image: '/certificates/othamen-Intro to ChatGPT and Generative AI.pdf'
         },
         {
           title: 'Build Chat Applications with OpenAI',
           issuer: 'Coursera',
           date: '2023',
-          image: '/src/assets/certificates/othmane-Build Chat Applications with OpenAI.pdf'
+          image: '/certificates/othmane-Build Chat Applications with OpenAI.pdf'
         },
         {
           title: 'Convolutional Neural Networks',
           issuer: 'Coursera',
           date: '2023',
-          image: '/src/assets/certificates/othmane-Convolutional Neural Networks with.pdf'
+          image: '/certificates/othmane-Convolutional Neural Networks with.pdf'
         }
       ]
     }

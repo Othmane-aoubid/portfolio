@@ -17,4 +17,12 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  assetsInclude: ['**/*.pdf'], // Add PDF files to the assets
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name][extname]'
+      }
+    }
+  }
 })

@@ -79,6 +79,10 @@
     <div class="bg-white">
       <ProfessionalJourney />
     </div>
+    <!-- Certificates Section -->
+    <div class="bg-white">
+      <CertificatesView />
+    </div>
     <!-- Client Feed Back Section -->
     <!-- <div class="bg-white">
       <ClientFeedBack />
@@ -98,6 +102,7 @@ import Skills from "../components/skills/Skills.vue";
 import Showcase from "../components/showcase/ShowcaseSection.vue";
 import ClientFeedBack from "../components/clientfeedback/FeedBack.vue";
 import Insights from "../components/insights/Insights.vue";
+import CertificatesView from "../views/CertificatesView.vue";
 </script>
 
 <style>

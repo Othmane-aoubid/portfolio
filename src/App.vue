@@ -87,7 +87,7 @@
           @click="toggleMenu"
         >
           {{ item.label }}
-        </router-link >
+        </router-link>
         <router-link to="/projects">
         <button
           class="bg-white text-black px-6 py-2 rounded-md hover:bg-gray-200 transition-colors"
@@ -116,6 +116,7 @@ const navItems = [
   { label: "About Me", path: "/about" },
   { label: "Projects", path: "/projects" },
   { label: "Experience", path: "/experience" },
+  { label: "Certificates", path: "/certificates" },
   // { label: "Blog", path: "/blog" },
   { label: "Contact Me", path: "/contact" },
 ];

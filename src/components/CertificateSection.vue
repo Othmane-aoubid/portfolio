@@ -22,7 +22,7 @@
               <h4 :class="`text-xl font-semibold text-white group-hover:text-${hoverColor} transition-colors`">{{ cert.title }}</h4>
               <p class="text-gray-400 mt-1">{{ cert.issuer }}</p>
             </div>
-            <span class="text-sm text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full">{{ cert.date }}</span>
+            <!-- <span class="text-sm text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full">{{ cert.date }}</span> -->
           </div>
           <img :src="cert.image" :alt="cert.title" class="w-full h-auto object-contain rounded-b-2xl" loading="lazy" />
         </div>

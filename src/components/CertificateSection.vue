@@ -14,9 +14,9 @@
     
     <div class="grid gap-8 md:grid-cols-1 lg:grid-cols-1">
       <div v-for="cert in certificates" :key="cert.title" 
-           :class="`group relative bg-gray-800/50 backdrop-blur rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-${hoverColor}/10`">
+           :class="`group relative bg-gray-800/50 backdrop-blur rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-${hoverColor}/10 pr-0`">
         <div :class="`absolute inset-0 bg-gradient-to-br ${gradientColors}/10 opacity-0 group-hover:opacity-100 transition-opacity`"></div>
-        <div class="relative">
+        <div class="relative w-full">
           <div class="flex items-center justify-between p-6 border-b border-gray-700">
             <div>
               <h4 :class="`text-xl font-semibold text-white group-hover:text-${hoverColor} transition-colors`">{{ cert.title }}</h4>
@@ -24,9 +24,7 @@
             </div>
             <span class="text-sm text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full">{{ cert.date }}</span>
           </div>
-          <div class="p-1 bg-white">
-            <PDFViewer :pdf-url="cert.image" />
-          </div>
+          <img :src="cert.image" :alt="cert.title" class="w-full h-auto object-contain rounded-b-2xl" loading="lazy" />
         </div>
       </div>
     </div>
@@ -34,13 +32,8 @@
 </template>
 
 <script>
-import PDFViewer from './PDFViewer.vue'
-
 export default {
   name: 'CertificateSection',
-  components: {
-    PDFViewer
-  },
   props: {
     title: {
       type: String,

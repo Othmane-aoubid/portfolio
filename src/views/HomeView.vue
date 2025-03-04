@@ -1,69 +1,50 @@
 <template>
-  <div class="min-h-screen bg-black text-white">
+  <div class="min-h-screen">
     <!-- Hero Section -->
-    <div class="relative min-h-screen flex items-center">
-      <!-- Background Image -->
-      <div class="absolute inset-0 z-0">
-        <img
-          src="../assets/images/hero.webp"
-          alt="Cyberpunk cityscape"
-          class="w-full h-full object-cover"
-        />
-        <div class="absolute inset-0 bg-black/50"></div>
-      </div>
-
-      <!-- Content -->
-      <div class="relative z-10 container mx-auto px-4">
-        <div class="max-w-3xl mx-auto text-center">
-          <h1
-            class="text-4xl sm:text-5xl md:text-6xl font-bold mb-8 relative inline-block"
-          >
-            <span class="relative z-10">Welcome to My Portfolio</span>
-            <svg
-              class="absolute bottom-0 left-0 w-full h-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 500 10"
-              fill="none"
-            >
-              <path
-                d="M0 5 H500"
-                stroke="white"
-                stroke-width="2"
-                class="animate-twbb-dash"
-              />
-            </svg>
-          </h1>
-
-          <p class="text-lg sm:text-xl md:text-2xl text-gray-100 mb-12 text-justify font-bold">
-            Hi, I’m Othmane ! A passionate Software Engineer with over two
-            years of experience in building innovative web applications. I
-            specialize in creating scalable, user-friendly solutions tailored to
-            meet client needs. From collaborating with world-renowned
-            organizations to delivering cutting-edge platforms, I turn ideas
-            into reality with clean code and creative problem-solving. Let’s
-            build something amazing together!
-          </p>
-          <div
-            class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6"
-          >
-            <router-link to="/projects">
-              <button
-                class="bg-white text-black px-8 py-3 rounded-md hover:bg-gray-200 transition-colors"
-              >
-                View Projects
-              </button>
-            </router-link>
-            <router-link to="/contact">
-            <button
-            class="bg-white text-black px-9 py-3 rounded-md hover:bg-gray-200 transition-colors"
-            >
-               Contact Me 
-            </button></router-link>
+    <section class="relative h-screen flex items-center px-6">
+      <div class="max-w-7xl mx-auto w-full">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Left side content -->
+          <div class="md:w-1/2">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">
+              Welcome to My
+              <span class="text-[#00FF95]">Portfolio</span>
+            </h1>
+            <p class="text-gray-400 mb-8 max-w-lg">
+              I'm a passionate developer specializing in web development, networking, and AI technologies.
+            </p>
+            <div class="flex gap-4">
+              <router-link to="/projects" class="inline-block">
+                <button class="bg-[#00B87C] text-white px-8 py-3 rounded-md hover:bg-[#00A06D] transition-colors font-medium">
+                  View Projects
+                </button>
+              </router-link>
+              <router-link to="/contact" class="inline-block">
+                <button class="bg-[#0D1117] text-white px-8 py-3 rounded-md border border-[#1E2A3B] hover:border-[#2E3A4B] transition-colors font-medium">
+                  Contact Me
+                </button>
+              </router-link>
+            </div>
+          </div>
+          
+          <!-- Right side with circular logo -->
+          <div class="md:w-1/2 flex justify-center mt-12 md:mt-0">
+            <div class="relative w-64 h-64">
+              <div class="absolute inset-0 rounded-full bg-white glow-effect"></div>
+              <div class="absolute inset-0 rounded-full overflow-hidden">
+                <img 
+                  src="../../public/hero.webp" 
+                  alt="Hero Image" 
+                  class="w-full h-full object-cover transform scale-110"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- about me Section -->
+    </section>
+
+    <!-- About Me section will go here -->
     <div class="bg-white">
       <AboutMe />
     </div>
@@ -72,17 +53,13 @@
       <Skills />
     </div>
     <!-- Showcase Section -->
-    <div class="bg-white">
-      <Showcase />
-    </div>
+    <Showcase />
     <!-- Professional Journey Section -->
-    <div class="bg-white">
-      <ProfessionalJourney />
-    </div>
+    <ProfessionalJourney />
     <!-- Certificates Section -->
-    <div class="bg-white">
+    <!-- <div class="bg-white">
       <CertificatesView />
-    </div>
+    </div> -->
     <!-- Client Feed Back Section -->
     <!-- <div class="bg-white">
       <ClientFeedBack />
@@ -94,7 +71,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import { ref } from "vue";
 import AboutMe from "../components/about/AboutMe.vue";
 import ProfessionalJourney from "../components/ProfessionalJourney/ProfessionalJourney.vue";
@@ -103,12 +80,27 @@ import Showcase from "../components/showcase/ShowcaseSection.vue";
 import ClientFeedBack from "../components/clientfeedback/FeedBack.vue";
 import Insights from "../components/insights/Insights.vue";
 import CertificatesView from "../views/CertificatesView.vue";
+
+export default {
+  name: 'HomeView',
+  components: {
+    AboutMe,
+    ProfessionalJourney,
+    Skills,
+    Showcase,
+    ClientFeedBack,
+    Insights,
+    CertificatesView
+  }
+}
 </script>
 
-<style>
-/* Add any custom styles here */
-body {
-  margin: 0;
-  padding: 0;
+<style scoped>
+.glow-effect {
+  box-shadow: 0 0 40px 5px #00FF95;
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(13,17,23,0) 0%, #0D1117 100%);
 }
 </style>

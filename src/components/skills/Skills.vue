@@ -1,47 +1,181 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div class="space-y-8">
-      <!-- Section Title -->
-      <h2 class="text-4xl font-bold text-gray-900">Technical Skills</h2>
+  <section class="py-20 px-6 bg-[#0D1117]" style="border-top: 3px solid">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-16 text-white relative">
+        Technical Skills
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#00FF95] mt-2"></div>
+      </h2>
 
-      <!-- Description -->
-      <p class="text-lg text-gray-700 leading-relaxed">
-        <span class="text-blue-600">Expertise Overview: </span>
-        I am Proficient in a variety of programming languages and frameworks,
-        including JavaScript, React, Node.js, and Python. This technical prowess
-        empowers the design and development of robust, scalable web applications
-        that meet the demands of modern users.
-      </p>
-
-      <!-- Skills Grid -->
-      <div class="grid md:grid-cols-2 gap-8 mt-8">
-        <!-- Front-End -->
-        <div class="space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">Front-End</h3>
-          <p class="text-gray-700">
-            Expert in creating
-            <span class="text-blue-600"
-              >responsive and intuitive interfaces</span
-            >, that enhance user experience. and Utilizing
-            <span class="text-blue-600">HTML, CSS, and JavaScript</span>
-            frameworks like
-            <span class="text-blue-600">
-              React and Vue.js and next, typeScript</span
-            >, complex ideas are transformed into seamless user journeys,
-            ensuring that every interaction is engaging and efficient.
-          </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Frontend Development -->
+        <div class="bg-[#1A1F29] p-6 rounded-lg">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-lg bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-6 h-6 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Frontend Development</h3>
+          </div>
+          <p class="text-gray-400 mb-6">Expertise in creating responsive and interactive user interfaces.</p>
+          
+          <!-- Skills with Progress Bars -->
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Vue.js</span>
+                <span class="text-gray-400">90%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full my-2" >
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 80%"></div>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-400">React.js</span>
+                <span class="text-gray-400">80%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full my-2">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 80%"></div>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-400">Python</span>
+                <span class="text-gray-400">60%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full my-2">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 60%"></div>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-400">Next.js</span>
+                <span class="text-gray-400">80%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full my-2">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">HTML/CSS</span>
+                <span class="text-gray-400">95%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 95%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Tailwind CSS</span>
+                <span class="text-gray-400">85%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Back-End -->
-        <div class="space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">Back-End</h3>
-          <p class="text-gray-700">
-            Skilled in server-side development with <span class="text-blue-600">Node.js, Express</span>, and
-            <span class="text-blue-600">Python</span>. This expertise guarantees <span class="text-blue-600">efficient data handling</span>, and
-            <span class="text-blue-600">optimal application performance</span>, enabling smooth communication
-            between front-end and back-end systems. The focus is on building the
-            backbone of applications that are functional, scalable, and secure.
-          </p>
+        <!-- Backend Development -->
+        <div class="bg-[#1A1F29] p-6 rounded-lg">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-lg bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-6 h-6 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Backend Development</h3>
+          </div>
+          <p class="text-gray-400 mb-6">Building robust server-side applications and APIs.</p>
+          
+          <!-- Skills with Progress Bars -->
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Node.js</span>
+                <span class="text-gray-400">85%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Express</span>
+                <span class="text-gray-400">80%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Postgresql</span>
+                <span class="text-gray-400">75%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Flask</span>
+                <span class="text-gray-400">75%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Fastapi</span>
+                <span class="text-gray-400">75%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Networking -->
+        <div class="bg-[#1A1F29] p-6 rounded-lg">
+          <div class="flex items-center gap-4 mb-6">
+            <div class="w-12 h-12 rounded-lg bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-6 h-6 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-white">Networking</h3>
+          </div>
+          <p class="text-gray-400 mb-6">Designing and implementing network infrastructure.</p>
+          
+          <!-- Skills with Progress Bars -->
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Cisco Networking</span>
+                <span class="text-gray-400">90%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Network Security</span>
+                <span class="text-gray-400">85%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between mb-1">
+                <span class="text-gray-400">Cloud Infrastructure</span>
+                <span class="text-gray-400">80%</span>
+              </div>
+              <div class="h-2 bg-[#1E2736] rounded-full">
+                <div class="h-2 bg-[#00FF95] rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -50,18 +184,6 @@
 
 <script>
 export default {
-  name: "ComponentName",
-  data() {
-    return {
-      // component data here
-    };
-  },
-  methods: {
-    // component methods here
-  },
-};
+  name: "Skills"
+}
 </script>
-
-<style scoped>
-/* component styles here */
-</style>

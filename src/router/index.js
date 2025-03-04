@@ -35,7 +35,7 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/certificates',
+      path: '/certificates/:file?',
       name: 'certificates',
       component: () => import('../views/CertificatesView.vue'),
     },

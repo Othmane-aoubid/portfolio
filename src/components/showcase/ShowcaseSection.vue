@@ -1,258 +1,108 @@
 <template>
-  <section class="text-center py-8 sm:py-16 px-4 sm:px-6 lg:px-8">
-    <h2 class="text-lg font-semibold text-gray-800">PROJECTS</h2>
-    <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-2">
-      Showcasing My Work
-    </h1>
-    <p class="mt-4 text-base sm:text-lg text-gray-800 max-w-2xl mx-auto">
-      Explore a selection of my projects that demonstrate my skills in web
-      development and design.
-    </p>
-    <div class="mt-12 space-y-12">
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="../../assets/images/predictive.png"
-          alt="E-commerce Platform"
-          class="w-full h-64 object-cover"
-        />
-        <div class="p-6">
-          <h2
-            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
-          >
-            Predictive is a security and vulnerability scanning platform
-          </h2>
-          <div class="space-y-2 mb-6">
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Client: Tisalabs</span>
-            </div>
-            <!-- <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Date: May 2023</span>
-            </div> -->
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Technology Stack: Vue.js, Firebase, Python Flask</span>
-            </div>
-          </div>
-          <p class="text-gray-700 leading-relaxed mb-6 text-left">
-            Predictive is a security and vulnerability scanning platform that
-            identifies and predicts security threats before they happen.
-            Predictive was designed by a team of security experts who are
-            passionate about developing better ways to protect organizations
-            from Cyberattacks.
-          </p>
-          <!-- <div class="mt-auto text-left">
-            <a
-              href="#"
-              class="inline-flex items-center text-blue-600 hover:text-blue-800"
-            >
-              View Project
-              <svg
-                class="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 5L16 12L9 19"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
-          </div> -->
-        </div>
-      </div>
+  <section class="py-20 px-6 bg-[#0D1117]" style="border-top: 3px solid">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-16 text-white relative">
+        Recent Projects
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#00FF95] mt-2"></div>
+      </h2>
 
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="../../assets/images/TridentApp2.png"
-          alt="Personal Blog"
-          class="w-full h-auto object-cover"
-        />
-        <div class="p-6">
-          <h2
-            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
-          >
-            Trident – Energy Usage Optimization Platform
-          </h2>
-          <div class="space-y-2 mb-6">
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Client: Tisalabs</span>
-            </div>
-            <!-- <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Date: June 2023</span>
-            </div> -->
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Technology Stack: Vue.js, Firebase, Python Flask</span>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Predictive Platform -->
+        <div class="bg-[#1A1F29] rounded-lg overflow-hidden">
+          <img
+            src="../../assets/images/predictive.png"
+            alt="Predictive Platform"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-white mb-3">Predictive Platform</h3>
+            <p class="text-gray-400 mb-4">Predictive is a security and vulnerability scanning platform that identifies and predicts security threats before they happen.</p>
+            <div class="flex gap-2">
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Vue.js
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Firebase
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Flask
+              </span>
             </div>
           </div>
-          <p class="text-gray-700 leading-relaxed mb-6 text-left">
-            Collaboration: Tisalabs and the Irish Government Trident is an
-            energy optimization platform developed in collaboration with
-            Tisalabs and the Irish Government. It helps citizens sell unused
-            electricity back to providers, who can redistribute it to others in
-            need. My role involved developing the front-end with Vue.js,
-            creating back-end APIs with Python Flask, and managing data with
-            Firebase to ensure seamless functionality.
-          </p>
-          <!-- <div class="mt-auto text-left">
-            <a
-              href="#"
-              class="inline-flex items-center text-blue-600 hover:text-blue-800"
-            >
-              View Project
-              <svg
-                class="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 5L16 12L9 19"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
-          </div> -->
         </div>
-      </div>
 
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="../../assets/images/Offzoneagency.png"
-          alt="Personal Blog"
-          class="w-full h-auto object-cover"
-        />
-        <div class="p-6">
-          <h2
-            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
-          >
-            OFZONE Agency Website
-          </h2>
-          <div class="space-y-2 mb-6">
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Client: OFZONE Agency</span>
-            </div>
-            <!-- <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Date: June 2023</span>
-            </div> -->
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Technology Stack: Next.js</span>
+        <!-- Trident Platform -->
+        <div class="bg-[#1A1F29] rounded-lg overflow-hidden">
+          <img
+            src="../../assets/images/TridentApp2.png"
+            alt="Trident Platform"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-white mb-3">Trident Platform</h3>
+            <p class="text-gray-400 mb-4">Energy optimization platform helping citizens sell unused electricity back to providers, developed in collaboration with Tisalabs and the Irish Government.</p>
+            <div class="flex gap-2">
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Vue.js
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Firebase
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Flask
+              </span>
             </div>
           </div>
-          <p class="text-gray-700 leading-relaxed mb-6 text-left">
-            Collaboration: Team of Software Engineers In partnership with a team
-            of developers, I created a sleek, modern website for OFZONE Agency.
-            Built with Next.js, the platform is optimized for fast loading
-            times, SEO, and a smooth user experience. This project highlights my
-            ability to work collaboratively and deliver exceptional results.
-          </p>
-          <!-- <div class="mt-auto text-left">
-            <a
-              href="#"
-              class="inline-flex items-center text-blue-600 hover:text-blue-800"
-            >
-              View Project
-              <svg
-                class="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 5L16 12L9 19"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
-          </div> -->
         </div>
-      </div>
-      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
-        <img
-          src="../../assets/images/autorepairshop.png"
-          alt="auto repair shop"
-          class="w-full h-auto object-cover"
-        />
-        <div class="p-6">
-          <h2
-            class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 text-left"
-          >
-            AutoWaysee Website
-          </h2>
-          <div class="space-y-2 mb-6">
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Client: AutoWaysee</span>
-            </div>
-            <!-- <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Date: June 2023</span>
-            </div> -->
-            <div class="flex items-center text-sm text-gray-600">
-              <span class="text-gray-400 mr-2">#</span>
-              <span>Technology Stack: vuejs, tailwind, firebase</span>
+
+        <!-- OFZONE Agency -->
+        <div class="bg-[#1A1F29] rounded-lg overflow-hidden">
+          <img
+            src="../../assets/images/Offzoneagency.png"
+            alt="OFZONE Agency"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-white mb-3">OFZONE Agency Website</h3>
+            <p class="text-gray-400 mb-4">A sleek, modern website optimized for fast loading times, SEO, and smooth user experience, built in collaboration with a team of developers.</p>
+            <div class="flex gap-2">
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Next.js
+              </span>
             </div>
           </div>
-          <p class="text-gray-700 leading-relaxed mb-6 text-left">
-            AutowaySee is an e-commerce platform tailored for car repair shops,
-            enabling users to explore, purchase, and book automotive services
-            and products online. Built with Vue.js, Firebase, and Tailwind CSS,
-            the platform provides a seamless shopping experience with real-time
-            updates and responsive design. Its sleek interface and robust
-            functionality demonstrate proficiency in modern web development
-            technologies, making it an ideal solution for businesses aiming to
-            digitize and streamline their operations in the automotive repair
-            industry.
-          </p>
-          <!-- <div class="mt-auto text-left">
-            <a
-              href="#"
-              class="inline-flex items-center text-blue-600 hover:text-blue-800"
-            >
-              View Project
-              <svg
-                class="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9 5L16 12L9 19"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </a>
-          </div> -->
+        </div>
+
+        <!-- AutoWaysee Website -->
+        <div class="bg-[#1A1F29] rounded-lg overflow-hidden">
+          <img
+            src="../../assets/images/autorepairshop.png"
+            alt="AutoWaysee"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-white mb-3">AutoWaysee Website</h3>
+            <p class="text-gray-400 mb-4">An e-commerce platform for car repair shops, enabling users to explore, purchase, and book automotive services and products online.</p>
+            <div class="flex gap-2">
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Vue.js
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Tailwind
+              </span>
+              <span class="inline-flex items-center px-3 py-1 rounded text-sm bg-[#00FF95]/20 text-[#00FF95]">
+                Firebase
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
-<script setup>
-// No additional script needed for this component
+<script>
+export default {
+  name: "ShowcaseSection"
+}
 </script>
-
-<style scoped>
-/* Add any custom styles here if needed */
-</style>

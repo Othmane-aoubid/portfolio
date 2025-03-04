@@ -1,50 +1,156 @@
 <template>
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-      <!-- Left Content -->
-      <div class="space-y-6 sm:space-y-8">
-        <h1
-          class="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-left"
-        >
-          Professional Journey
-        </h1>
-        <!-- Bio Section -->
-        <div class="space-y-4">
-          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">
-            <span class="font-medium">The journey </span> of a
-            <span class="text-blue-600 font-medium">software engineer</span>
-            is a path of continuous growth, creativity, and innovation. It
-            begins with curiosity and evolves through mastering coding,
-            debugging, and building complex systems. Along the way, the engineer
-            achieves milestones like successful product launches, team
-            collaborations, and contributions to transformative technologies.
-            Each step involves adapting to new tools, solving real-world
-            problems, and embracing lifelong learning. Beyond technical
-            achievements, the journey is about creating meaningful
-            change crafting solutions that impact lives, drive progress, and
-            shape the future through the power of technology. At its core, this
-            journey is fueled by passion and resilience. Each challenge, from
-            debugging elusive errors to adapting to industry shifts, hones the
-            engineer's skills and mindset. The professional timeline weaves
-            together moments of collaboration, innovation, and inspiration,
-            building a career that thrives on curiosity and purpose. Ultimately,
-            the software engineer’s journey is not just about writing code—it’s
-            about creating impact, connecting ideas, and leaving a lasting
-            legacy in a digitally driven world.
-          </p>
+  <section class="py-20 px-6 bg-[#0D1117]" style="border-top: 3px solid">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-16 text-white relative">
+        Professional Certifications
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#00FF95] mt-2"></div>
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Networking Essentials -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Networking Essentials</h3>
+          </div>
+          <p class="text-gray-400 mb-4">Cisco Networking Academy</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'Networking_Essentials_certificate_o_aoubid-etu-enset-media-ac-ma_63d735e0-2607-4452-8c2b-002c29508430.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
         </div>
 
-        <!-- Stats Grid -->
-      </div>
+        <!-- Linux Essentials -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Linux Essentials</h3>
+          </div>
+          <p class="text-gray-400 mb-4">NDG Linux</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'aoubidothmane-certificate-LINUX ESSENTIALS.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
 
-      <!-- Right Image -->
-      <div class="relative h-full rounded-2xl overflow-hidden mt-8 lg:mt-0">
-        <img
-          src="../../assets/images/personaljourney.webp"
-          alt="Professional developer at work"
-          class="w-full h-auto object-cover"
-          style="max-height: 600px"
-        />
+        <!-- Linux Unhatched -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">NDG Linux Unhatched</h3>
+          </div>
+          <p class="text-gray-400 mb-4">NDG Linux</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'Partner-_NDG_Linux_Unhatched_certificate_o_aoubid-etu-enset-media-ac-ma_b77d576a-16fa-4297-ab42-b77633b5036c.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- English for IT -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">English for IT</h3>
+          </div>
+          <p class="text-gray-400 mb-4">Cisco Networking Academy</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'English_for_IT_1_certificate_o_aoubid-etu-enset-media-ac-ma_36946776-5e5f-4131-a695-3f7b895b7656.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- Introduction to IoT -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Introduction to IoT</h3>
+          </div>
+          <p class="text-gray-400 mb-4">Cisco Networking Academy</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'Introduction_to_IoT_certificate_o_aoubid-etu-enset-media-ac-ma_e272b145-044d-48d8-8aee-c27ba8e801a7.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- Principles of Cybersecurity -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Principles of Cybersecurity</h3>
+          </div>
+          <p class="text-gray-400 mb-4">Cisco Networking Academy</p>
+          <div class="flex justify-between items-center">
+            <span class="text-gray-400">2025</span>
+            <router-link :to="{ name: 'certificates', params: { file: '_certificate_o_aoubid-Principles-of- Cybersecurity.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- Intro to ChatGPT -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Intro to ChatGPT and Generative AI</h3>
+          </div>
+          <p class="text-gray-400 mb-4">OpenAI</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'othamen-Intro to ChatGPT and Generative AI.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- Build Chat Applications -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Build Chat Applications with OpenAI</h3>
+          </div>
+          <p class="text-gray-400 mb-4">OpenAI</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'othmane-Build Chat Applications with OpenAI.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
+
+        <!-- Convolutional Neural Networks -->
+        <div class="bg-[#1A1F29] rounded-lg p-6">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-full bg-[#00FF95]/20 flex items-center justify-center">
+              <svg class="w-4 h-4 text-[#00FF95]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <h3 class="text-white text-lg font-medium">Convolutional Neural Networks</h3>
+          </div>
+          <p class="text-gray-400 mb-4">TensorFlow</p>
+          <div class="flex justify-between items-center">
+            <router-link :to="{ name: 'certificates', params: { file: 'othmane-Convolutional Neural Networks with.pdf' }}" class="text-[#00FF95] hover:text-[#00FF95]/80">View Certificate</router-link>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -52,18 +158,6 @@
 
 <script>
 export default {
-  name: "ProfessionalJourney",
-  data() {
-    return {
-      // component data here
-    };
-  },
-  methods: {
-    // component methods here
-  },
-};
+  name: "ProfessionalJourney"
+}
 </script>
-
-<style scoped>
-/* component styles here */
-</style>

@@ -113,6 +113,7 @@ import { ref } from "vue";
 import Footer from "./components/footer/Footer.vue";
 
 const navItems = [
+  { label: "Home", path: "/" },
   { label: "About Me", path: "/about" },
   { label: "Projects", path: "/projects" },
   { label: "Experience", path: "/experience" },

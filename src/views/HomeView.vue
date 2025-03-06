@@ -55,11 +55,11 @@
     <!-- Showcase Section -->
     <Showcase />
     <!-- Professional Journey Section -->
-    <ProfessionalJourney />
+    <!-- <ProfessionalJourney /> -->
     <!-- Certificates Section -->
-    <!-- <div class="bg-white">
+    <div class="bg-white">
       <CertificatesView />
-    </div> -->
+    </div>
     <!-- Client Feed Back Section -->
     <!-- <div class="bg-white">
       <ClientFeedBack />

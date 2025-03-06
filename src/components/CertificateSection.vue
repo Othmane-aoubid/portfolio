@@ -24,7 +24,7 @@
             </div>
             <!-- <span class="text-sm text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full">{{ cert.date }}</span> -->
           </div>
-          <img :src="cert.image" :alt="cert.title" class="w-full h-auto object-contain rounded-b-2xl" loading="lazy" />
+          <img :src="cert.image" :alt="cert.title" class="w-full h-auto object-contain rounded-b-2xl max-h-[400px]" loading="lazy" />
         </div>
       </div>
     </div>

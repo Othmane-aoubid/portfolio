@@ -71,6 +71,12 @@ export default {
     return {
       networkingCerts: [
         {
+          title: 'AWS Academy Cloud Foundations',
+          issuer: 'AWS Academy',
+          date: '2024',
+          image: '/certificates/aws-academy-graduate-aws-academy-cloud-foundations.png'
+        },
+        {
           title: 'Networking Essentials',
           issuer: 'Cisco Networking Academy',
           date: '2023',
